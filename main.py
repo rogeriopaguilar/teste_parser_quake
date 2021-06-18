@@ -4,6 +4,8 @@ import parserquake
 app = FastAPI()
 json_jogos=None
 
+
+
 @app.get("/")
 def listar_todos():
     if parserquake.json_jogos is None:
