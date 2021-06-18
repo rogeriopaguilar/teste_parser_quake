@@ -26,3 +26,6 @@ Para executar os testes unitários, posicionar o console no diretório do projet
 
 python -m unittest testes.py
 
+Para executar os testes unitários dos controles rest, executar o comando no diretório do projeto:
+
+pyton testerest.py
